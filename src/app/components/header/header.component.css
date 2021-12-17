@@ -1,0 +1,30 @@
+.header-container {
+    background-color: rgba(0, 255, 255, .0);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.name-container {
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    display: flex;
+    align-self: center;
+    margin-left: 15px;
+    width: 150px;
+    color: #fff;
+    /* display: none; */
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 400px;
+   justify-content: space-around;
+   font-family: 'Exo', sans-serif;
+   color: #fff;
+}

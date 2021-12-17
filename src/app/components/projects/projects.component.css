@@ -1,0 +1,16 @@
+.project-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.label {
+    text-align: center;
+}
