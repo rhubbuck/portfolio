@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
     padding: 0 350px;
     background-color: #373B44;
     color: #fff;
@@ -20,8 +20,8 @@
 }
 
 .image-container {
-    height: 160px;
-    width: 220px;
+    height: 220px;
+    width: 300px;
 }
 
 img {
@@ -46,5 +46,5 @@ h4 {
     flex-wrap: wrap;
     align-items: center;
     padding: 20px 0 ;
-    height: 270px;
+    /* height: 270px; */
 }
