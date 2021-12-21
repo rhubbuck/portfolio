@@ -3,9 +3,10 @@
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-    background-color: #373B44;
-    height: 60vh;
+    background-color: #273444;
+    height: 40vh;
     align-items: center;
+    padding-bottom: 70px;
 }
 
 .label, .logos{
@@ -21,5 +22,5 @@
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 34px;
 }

@@ -3,18 +3,33 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0 350px;
-    background-color: #373B44;
-    height: 60vh;
-    align-items: center;
+    background-color: #273444;
+    height: 55vh;
 }
 
 .column1, .column2 {
-    width: 40%;
     color: #fff;
     font-family: 'Exo', sans-serif;
     line-height: 1.5;
 }
 
-h3 {
-    font-size: 30px;
+.column1 {
+    width: 40%;
+    padding-top: 50px;
 }
+
+.column2 {
+    width: 60%;
+    text-align: center;
+    align-self: center;
+}
+
+h3 {
+    font-size: 34px;
+    color: #e31b6d;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 35px;
+    border-radius: 3px;
+}
+

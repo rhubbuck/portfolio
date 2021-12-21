@@ -4,8 +4,8 @@
     align-items: center;
     height: 120vh;
     padding: 0 350px;
-    background-color: #373B44;
-    color: #fff;
+    background-color: #fff;
+    color: black;
 }
 
 .project-container {
@@ -32,7 +32,7 @@ img {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 34px;
 }
 
 h4 {
