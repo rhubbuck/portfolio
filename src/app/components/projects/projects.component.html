@@ -3,7 +3,31 @@
         <h3>My Projects</h3>
     </div>
     <div class="project-container">
-        <div class="project-card">
+        <div class="project" (mouseover)="changeState()" (mouseout)="changeState()" class="project">
+            <div *ngIf="state" class="project-content">
+                <h4>PupExpress</h4>
+                <button>Learn More</button>
+            </div>
+        </div>
+        <div class="project" (mouseover)="changeStateTwo()" (mouseout)="changeStateTwo()" class="project">
+            <div *ngIf="stateTwo" class="project-content">
+                <h4>PupExpress</h4>
+                <button>Learn More</button>
+            </div>
+        </div>
+        <div class="project" (mouseover)="changeStateThree()" (mouseout)="changeStateThree()" class="project">
+            <div *ngIf="stateThree" class="project-content">
+                <h4>PupExpress</h4>
+                <button>Learn More</button>
+            </div>
+        </div>
+        <div class="project" (mouseover)="changeStateFour()" (mouseout)="changeStateFour()" class="project">
+            <div *ngIf="stateFour" class="project-content">
+                <h4>PupExpress</h4>
+                <button>Learn More</button>
+            </div>
+        </div>
+        <!-- <div class="project-card">
             <h4>All Trails</h4>
             <div class="image-container">
                 <img src="../../../assets/images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
@@ -26,6 +50,10 @@
             <div class="image-container">
                 <img src="../../../assets/images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
             </div>
-        </div>
+        </div> -->
     </div>
+
+    <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+        <path d="M0 0 L50 100 L100 0 Z" fill="#fff" stroke="#fff"></path>
+    </svg>
 </div>
