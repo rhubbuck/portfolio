@@ -3,26 +3,39 @@
         <h3>My Projects</h3>
     </div>
     <div class="project-container">
-        <div class="project" (mouseover)="changeState()" (mouseout)="changeState()" class="project">
+        <div class="project" (mouseenter)="changeState()" (mouseleave)="changeState()" class="project">
             <div *ngIf="state" class="project-content">
                 <h4>PupExpress</h4>
+                <p>React / Commerce.js / Swipe</p>
                 <button>Learn More</button>
             </div>
         </div>
-        <div class="project" (mouseover)="changeStateTwo()" (mouseout)="changeStateTwo()" class="project">
+        <div class="project" (mouseenter)="changeStateTwo()" (mouseleave)="changeStateTwo()" class="project">
             <div *ngIf="stateTwo" class="project-content">
                 <h4>PupExpress</h4>
                 <button>Learn More</button>
             </div>
         </div>
-        <div class="project" (mouseover)="changeStateThree()" (mouseout)="changeStateThree()" class="project">
+        <div class="project" (mouseenter)="changeStateThree()" (mouseleave)="changeStateThree()" class="project">
             <div *ngIf="stateThree" class="project-content">
                 <h4>PupExpress</h4>
                 <button>Learn More</button>
             </div>
         </div>
-        <div class="project" (mouseover)="changeStateFour()" (mouseout)="changeStateFour()" class="project">
+        <div class="project" (mouseenter)="changeStateFour()" (mouseleave)="changeStateFour()" class="project">
             <div *ngIf="stateFour" class="project-content">
+                <h4>PupExpress</h4>
+                <button>Learn More</button>
+            </div>
+        </div>
+        <div class="project" (mouseenter)="changeStateFive()" (mouseleave)="changeStateFive()" class="project">
+            <div *ngIf="stateFive" class="project-content">
+                <h4>PupExpress</h4>
+                <button>Learn More</button>
+            </div>
+        </div>
+        <div class="project" (mouseenter)="changeStateSix()" (mouseleave)="changeStateSix()" class="project">
+            <div *ngIf="stateSix" class="project-content">
                 <h4>PupExpress</h4>
                 <button>Learn More</button>
             </div>

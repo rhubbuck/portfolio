@@ -4,7 +4,7 @@
     justify-content: space-between;
     padding: 0 350px;
     background-color: #273444;
-    height: 55vh;
+    
 }
 
 .column1, .column2 {
@@ -14,14 +14,14 @@
 }
 
 .column1 {
-    width: 40%;
+    width: 50%;
     padding-top: 50px;
 }
 
 .column2 {
-    width: 60%;
+    width: 50%;
     text-align: center;
-    align-self: center;
+    padding-top: 60px;
 }
 
 h3 {
@@ -31,5 +31,9 @@ h3 {
     text-align: center;
     margin: 0 35px;
     border-radius: 3px;
+}
+
+p {
+    font-size: 20px;
 }
 
