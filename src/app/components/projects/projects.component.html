@@ -1,13 +1,15 @@
+
 <div class="projects-wrapper">
     <div class="label">
         <h3>My Projects</h3>
     </div>
+    <app-modal *ngIf="openModal" (closeModal)="onNotifyClick()"></app-modal>
     <div class="project-container">
         <div class="project" (mouseenter)="changeState()" (mouseleave)="changeState()" class="project">
             <div *ngIf="state" class="project-content">
                 <h4>PupExpress</h4>
                 <p>React / Commerce.js / Swipe</p>
-                <button>Learn More</button>
+                <button (click)="changeModal()">Learn More</button>
             </div>
         </div>
         <div class="project" (mouseenter)="changeStateTwo()" (mouseleave)="changeStateTwo()" class="project">
@@ -19,7 +21,7 @@
         <div class="project" (mouseenter)="changeStateThree()" (mouseleave)="changeStateThree()" class="project">
             <div *ngIf="stateThree" class="project-content">
                 <h4>PupExpress</h4>
-                <button>Learn More</button>
+                <button routerLink="/all-trail">Learn More</button>
             </div>
         </div>
         <div class="project" (mouseenter)="changeStateFour()" (mouseleave)="changeStateFour()" class="project">
@@ -40,33 +42,7 @@
                 <button>Learn More</button>
             </div>
         </div>
-        <!-- <div class="project-card">
-            <h4>All Trails</h4>
-            <div class="image-container">
-                <img src="../../../assets/images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
-            </div>
-        </div>
-        <div class="project-card">
-            <h4>eCommerce</h4>
-            <div class="image-container">
-                <img src="../../../assets/images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
-            </div>
-        </div>
-        <div class="project-card">
-            <h4>Nama Sushi</h4>
-            <div class="image-container">
-                <img src="../../../assets/images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
-            </div>
-        </div>
-        <div class="project-card">
-            <h4>Project4</h4>
-            <div class="image-container">
-                <img src="../../../assets/images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
-            </div>
-        </div> -->
     </div>
-
-    <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
-        <path d="M0 0 L50 100 L100 0 Z" fill="#fff" stroke="#fff"></path>
-    </svg>
 </div>
+
+

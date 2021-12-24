@@ -5,6 +5,13 @@
     background-color: #fff;
     color: #273444;
     padding-top: 50px;
+    margin: 0 180px;
+    position: relative;
+}
+
+.outer {
+    margin: 0;
+    padding: 0;
 }
 
 .project-container {
@@ -13,7 +20,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-bottom: 80px;
-    width: 80%;
+    width: 100%;
 }
 
 .svgcolor-light {

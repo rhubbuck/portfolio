@@ -14,6 +14,8 @@ export class ProjectsComponent implements OnInit {
   stateFive: boolean = false;
   stateSix: boolean = false;
 
+  openModal: boolean = false;
+
   changeState() {
     this.state = !this.state;
   }
@@ -36,6 +38,14 @@ export class ProjectsComponent implements OnInit {
 
   changeStateSix() {
     this.stateSix = !this.stateSix
+  }
+
+  changeModal() {
+    this.openModal = !this.openModal
+  }
+
+  onNotifyClick() {
+    this.openModal = !this.openModal
   }
 
   constructor() { }

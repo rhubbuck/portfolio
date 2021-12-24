@@ -2,10 +2,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px 350px 40px;
+    padding: 80px 350px 40px;
     background-color: #273444;
     align-items: center;
 }
+
+.svgcolor-light {
+    background-color: #273444;
+    position: absolute;
+}
+
 
 h3 {
     color: #fff;
