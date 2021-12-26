@@ -2,32 +2,43 @@
 <div class="projects-wrapper">
     <div class="label">
         <h3>My Projects</h3>
+        <p>My latest work</p>
     </div>
-    <app-modal *ngIf="openModal" (closeModal)="onNotifyClick()"></app-modal>
+    <app-modal *ngIf="openModal" 
+    (closeModal)="onNotifyClick()" 
+    [item]="currentItem" 
+    [title]="currentTitle" 
+    [techs]="currentTechs" 
+    [description]="currentDescription"
+    [image]="currentImage"
+    id="modal"></app-modal>
     <div class="project-container">
         <div class="project" (mouseenter)="changeState()" (mouseleave)="changeState()" class="project">
             <div *ngIf="state" class="project-content">
-                <h4>PupExpress</h4>
-                <p>React / Commerce.js / Swipe</p>
+                <h4>New Project</h4>
+                <p>will be new project</p>
                 <button (click)="changeModal()">Learn More</button>
             </div>
         </div>
         <div class="project" (mouseenter)="changeStateTwo()" (mouseleave)="changeStateTwo()" class="project">
             <div *ngIf="stateTwo" class="project-content">
-                <h4>PupExpress</h4>
-                <button>Learn More</button>
+                <h4>All Trails</h4>
+                <p>Angular / Firebase</p>
+                <button (click)="changeModalTwo()">Learn More</button>
             </div>
         </div>
         <div class="project" (mouseenter)="changeStateThree()" (mouseleave)="changeStateThree()" class="project">
             <div *ngIf="stateThree" class="project-content">
                 <h4>PupExpress</h4>
-                <button routerLink="/all-trail">Learn More</button>
+                <p>React / Commerce.js / Swipe</p>
+                <button (click)="changeModalThree()">Learn More</button>
             </div>
         </div>
         <div class="project" (mouseenter)="changeStateFour()" (mouseleave)="changeStateFour()" class="project">
             <div *ngIf="stateFour" class="project-content">
-                <h4>PupExpress</h4>
-                <button>Learn More</button>
+                <h4>Nama Sushi</h4>
+                <p>React / Firebase</p>
+                <button (click)="changeModalFour()">Learn More</button>
             </div>
         </div>
         <div class="project" (mouseenter)="changeStateFive()" (mouseleave)="changeStateFive()" class="project">

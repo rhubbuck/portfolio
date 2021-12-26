@@ -29,7 +29,7 @@ h2 {
 }
 
 .link-box {
-    z-index: 999;
+    z-index: 99;
     position: absolute;
     top: 310px;
     right: 180px;

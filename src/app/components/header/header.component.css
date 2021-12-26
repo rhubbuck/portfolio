@@ -1,30 +1,42 @@
 .header-container {
-    background-color: rgba(0, 255, 255, .0);
+    background-color: #fff;
     height: 50px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: absolute;
+    position: fixed;
+    z-index: 100;
 }
 
 .name-container {
     font-family: 'Exo', sans-serif;
-    font-weight: 300;
     display: flex;
     align-self: center;
     margin-left: 15px;
     width: 150px;
-    color: #fff;
+    color: #273444;
     /* display: none; */
 }
+ h3 {
+     font-weight: 700;
+ }
 
 .nav {
     display: flex;
     flex-direction: row;
     list-style-type: none;
     width: 400px;
-   justify-content: space-around;
-   font-family: 'Exo', sans-serif;
-   color: #fff;
+    justify-content: space-around;
+    font-family: 'Exo', sans-serif;
+    color: #273444;
+}
+
+.navlink {
+    cursor: pointer;
+    transition: .1s;
+}
+
+.navlink:hover {
+    color: #CE1B5F;
 }

@@ -7,6 +7,7 @@
     padding-top: 50px;
     margin: 0 180px;
     position: relative;
+    
 }
 
 .outer {
@@ -19,7 +20,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding-bottom: 80px;
+    /* margin-bottom: 80px; */
     width: 100%;
 }
 
@@ -29,6 +30,7 @@
 
 .label {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .image-container {
@@ -37,7 +39,7 @@
 }
 
 .project {
-    width: 50%;
+    width: 33%;
     height: 300px;
     background-image: url("../../../assets/images/clement-helardot-95YRwf6CNw8-unsplash.jpg");
     background-size: cover;
@@ -70,10 +72,13 @@ button:hover {
 
 p {
     color: #e31b6d;
+    font-weight: 600;
 }
 
 h3 {
     font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 0;
 }
 
 h4 {

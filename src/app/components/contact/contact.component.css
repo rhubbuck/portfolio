@@ -3,26 +3,37 @@
     flex-direction: column;
     justify-content: center;
     padding: 80px 350px 40px;
-    background-color: #273444;
+    /* background-color: #273444; */
+    background-color: #fff;
     align-items: center;
 }
 
 .svgcolor-light {
-    background-color: #273444;
+    /* background-color: #273444; */
+    background-color: black;
     position: absolute;
 }
 
 
 h3 {
-    color: #fff;
+    color: #273444;
     font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+p {
+    color: #e31b6d;
+    font-weight: 600;
 }
 
 form {
-    background-color: #273444;
+    /* background-color: #273444; */
+    background-color: #fff;
     padding: 20px 50px;
     border-radius: 3px;
-    color: #fff;
+    color: #273444;
 }
 
 .input-pair {
@@ -49,8 +60,8 @@ textarea {
 
 button {
     color: #fff;
-    background-color: #273444;
-    border: 2px solid #1be3d2;
+    background-color: #e31b6d;
+    border: 2px solid #273444;
     cursor: pointer;
     margin-top: 4px;
     padding: 8px;

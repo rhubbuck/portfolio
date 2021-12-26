@@ -1,39 +1,46 @@
 .about-wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 0 350px;
-    background-color: #273444;
     
+    padding: 0 250px;
+    /* background-color: #273444; */
+    background-color: #fff
 }
 
 .column1, .column2 {
-    color: #fff;
+    color: #273444;
     font-family: 'Exo', sans-serif;
     line-height: 1.5;
 }
 
 .column1 {
-    width: 50%;
-    padding-top: 50px;
+    
+    text-align: center;
+    /* padding-top: 30px; */
 }
 
 .column2 {
-    width: 50%;
-    text-align: center;
-    padding-top: 60px;
+   
+    text-align: left;
+    /* padding-top: 30px; */
 }
 
 h3 {
-    font-size: 34px;
+    /* font-size: 34px;
     color: #e31b6d;
     background-color: #fff;
     text-align: center;
     margin: 0 35px;
-    border-radius: 3px;
+    border-radius: 3px; */
+    color: #273444; 
+    font-size: 34px;
+    font-weight: 400;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 300;
 }
-
