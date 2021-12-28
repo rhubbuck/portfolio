@@ -9,5 +9,7 @@
             <li><a class="navlink">Projects</a></li>
             <li><a class="navlink">Contact</a></li>
         </ul>
+        <img src="../../../assets/images/icons8-menu-24.png" alt="" class="menu" (click)="onNotifyClick()">
     </div>
 </div>
+<app-menu *ngIf="openMenu" (closeMenu)="onNotifyClick()" ></app-menu>

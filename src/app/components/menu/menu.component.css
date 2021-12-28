@@ -1,0 +1,32 @@
+.menu-container {
+    z-index: 300;
+    width: 60vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #273444;
+    right: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    list-style-type: none;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 40px;
+}
+
+li {
+    border-bottom: 2px solid #fff;
+    padding-bottom:  8px;
+    margin: 0 30%;
+}
+
+.back {
+    text-align: right;
+    margin: 50px 10px 0 0;
+}

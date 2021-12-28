@@ -85,23 +85,23 @@ h4 {
     font-size: 32px;
 }
 
-/* .project-card {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 20px 0;
-} */
 @media only screen and (max-width: 1024px) {
     .projects-wrapper {
         margin: 0 40px;
     }
 
     .project {
-        height: 240px;
         width: 48%;
         margin: 5px;
+    }  
+
+    h4 {
+        font-size: 26px;
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 4px;
     }
 }
 
@@ -109,9 +109,23 @@ h4 {
     .projects-wrapper {
         padding: 0;
     }
+
+    .project-content {
+        padding-top: 10px;
+    }
+
     .project {
         width: 80%;
         height: 220px;
         margin: 5px;
     }
+
+    button {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
 }

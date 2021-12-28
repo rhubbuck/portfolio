@@ -13,6 +13,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { HomeComponent } from './components/home/home.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { HomeComponent } from './components/home/home.component';
     FooterComponent,
     ModalComponent,
     HomeComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,

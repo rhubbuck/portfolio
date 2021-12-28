@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+
+  openMenu: boolean = false;
+
+  onNotifyClick() {
+    this.openMenu = !this.openMenu
+  }
+
   constructor() { }
 
   ngOnInit(): void {
