@@ -6,7 +6,7 @@
     /* background-color: #273444; */
     background-color: #fff;
     align-items: center;
-    padding-bottom: 70px;
+    padding: 50px;
 }
 
 .label, .logos{
@@ -24,4 +24,24 @@
 h3 {
     font-size: 34px;
     font-weight: 400;
+}
+
+@media only screen and (max-width: 1024px) {
+    .logos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 60%;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .logos {
+        width: 80%;
+    }
+
+    .skills-wrapper {
+        padding: 50px 20px;
+    }
 }

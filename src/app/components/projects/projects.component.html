@@ -43,14 +43,16 @@
         </div>
         <div class="project" (mouseenter)="changeStateFive()" (mouseleave)="changeStateFive()" class="project">
             <div *ngIf="stateFive" class="project-content">
-                <h4>PupExpress</h4>
-                <button>Learn More</button>
+                <h4>Weather App</h4>
+                <p>Javascript / Weather API</p>
+                <button (click)="changeModalFive()">Learn More</button>
             </div>
         </div>
         <div class="project" (mouseenter)="changeStateSix()" (mouseleave)="changeStateSix()" class="project">
             <div *ngIf="stateSix" class="project-content">
-                <h4>PupExpress</h4>
-                <button>Learn More</button>
+                <h4>Mock app dashboard</h4>
+                <p>Chart.js</p>
+                <button (click)="changeModalSix()">Learn More</button>
             </div>
         </div>
     </div>

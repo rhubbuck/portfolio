@@ -39,4 +39,11 @@
 
 .navlink:hover {
     color: #CE1B5F;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 426px) { 
+    .nav {
+       display: none;
+    }
 }

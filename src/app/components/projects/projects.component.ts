@@ -78,6 +78,22 @@ export class ProjectsComponent implements OnInit {
     this.openModal = !this.openModal
   }
 
+  changeModalFive() {
+    this.currentTitle = 'Nama Sushi';
+    this.currentTechs = 'React / Firebase';
+    this.currentDescription = 'dsfssdafsdafds.dfs .asdf.sd af. sdafsdafjsdakjf ksdajkfjsd kf ksda jfkdjs akfjdsk fdk asdk fdsakj f';
+    this.currentImage = 'dddd';
+    this.openModal = !this.openModal
+  }
+
+  changeModalSix() {
+    this.currentTitle = 'Nama Sushi';
+    this.currentTechs = 'React / Firebase';
+    this.currentDescription = 'dsfssdafsdafds.dfs .asdf.sd af. sdafsdafjsdakjf ksdajkfjsd kf ksda jfkdjs akfjdsk fdk asdk fdsakj f';
+    this.currentImage = 'dddd';
+    this.openModal = !this.openModal
+  }
+
 
   onNotifyClick() {
     this.openModal = !this.openModal

@@ -93,3 +93,25 @@ h4 {
     align-items: center;
     padding: 20px 0;
 } */
+@media only screen and (max-width: 1024px) {
+    .projects-wrapper {
+        margin: 0 40px;
+    }
+
+    .project {
+        height: 240px;
+        width: 48%;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .projects-wrapper {
+        padding: 0;
+    }
+    .project {
+        width: 80%;
+        height: 220px;
+        margin: 5px;
+    }
+}
