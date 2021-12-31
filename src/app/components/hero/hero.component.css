@@ -5,29 +5,29 @@
     padding: 0px;
 }
 
-svg {
-  height: 100%;
-}
-
 h1 {
-    font-size: 44px;
+    font-size: 52px;
+    color: #fff;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 38px;
     margin-left: 90px;
-    color: #e31b6d;
+    color: #fff;
 }
 
 .hero-wrapper {
     height: 100vh;
     overflow: hidden;
+    background-image: url(../../../assets/images/white-rainforest-94TvFpJNdv8-unsplash.jpg);
+    background-size: cover;
+    z-index: 40;
 }
 
 .hero-text {
-    z-index: 199;
+    z-index: 49;
     position: absolute;
-    top: 300px;
+    top: 170px;
     left: 200px;
     color: #273444;
 }
@@ -166,16 +166,4 @@ button {
     }
   }
 
-  @media only screen and (min-width: 1100px) {
-    svg {
-    transform: scale(1.65);
-    }
-
-    .hero-text {
-      top: 200px;
-    }
-
-    .link-box {
-      top: 220px;
-    }
-  }
+  

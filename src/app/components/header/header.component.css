@@ -1,12 +1,12 @@
 .header-container {
-    background-color: #fff;
+    background-color: #0e1824;
     height: 50px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: fixed;
-    z-index: 100;
+    z-index: 300;
 }
 
 .name-container {
@@ -15,7 +15,7 @@
     align-self: center;
     margin-left: 15px;
     width: 150px;
-    color: #273444;
+    color: #fff;
     /* display: none; */
 }
  h3 {
@@ -29,11 +29,12 @@
     width: 400px;
     justify-content: space-around;
     font-family: 'Exo', sans-serif;
-    color: #273444;
+    color: #fff;
 }
 
 .menu {
-    margin: 10px 10px 0 0;
+    margin: 12px 15px 0 0;
+    align-self: center;
 }
 
 .navlink {

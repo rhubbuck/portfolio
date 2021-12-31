@@ -76,6 +76,34 @@ button:hover {
     color:#273444;
 }
 
+.button-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#thankYou {
+    width: 100%;
+    position: relative;
+    color: #fff;
+    background-color: #0dbb24;
+    border: 2px solid #273444;
+    cursor: pointer;
+    margin-top: 4px;
+    padding: 8px;
+    font-size: 20px;
+    transition: .2s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+p {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
 @media only screen and (max-width: 1024px) {
     .contact-wrapper {
         padding: 40px 50px 20px;
