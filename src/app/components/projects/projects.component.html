@@ -13,35 +13,36 @@
     [image]="currentImage"
     id="modal"></app-modal>
     <div class="project-container">
-        <div class="project" (mouseenter)="changeState()" (mouseleave)="changeState()" class="project">
+        <div class="project" id="project1" (mouseenter)="changeState()" (mouseleave)="changeState()" class="project">
             <div *ngIf="state" class="project-content">
-                <h4>New Project</h4>
-                <p>will be new project</p>
+                <h4>Pupexpress</h4>
+                <p class="project-subheader">E-commerce</p>
                 <button (click)="changeModal()">Learn More</button>
             </div>
         </div>
-        <div class="project" (mouseenter)="changeStateTwo()" (mouseleave)="changeStateTwo()" class="project">
+        <div class="project" id="project2" (mouseenter)="changeStateTwo()" (mouseleave)="changeStateTwo()" class="project">
             <div *ngIf="stateTwo" class="project-content">
-                <h4>All Trails</h4>
-                <p>Angular / Firebase</p>
+                <h4>Nama Sushi</h4>
+                <p class="project-subheader">Restaurant landing page</p>
                 <button (click)="changeModalTwo()">Learn More</button>
             </div>
         </div>
-        <div class="project" (mouseenter)="changeStateThree()" (mouseleave)="changeStateThree()" class="project">
+        <div class="project" id="project3" (mouseenter)="changeStateThree()" (mouseleave)="changeStateThree()" class="project">
             <div *ngIf="stateThree" class="project-content">
-                <h4>PupExpress</h4>
-                <p>React / Commerce.js / Swipe</p>
+                <h4>Netflix Clone</h4>
+                <p class="project-subheader">Website clone</p>
+                <!-- <p>React / Commerce.js / Swipe</p> -->
                 <button (click)="changeModalThree()">Learn More</button>
             </div>
         </div>
-        <div class="project" (mouseenter)="changeStateFour()" (mouseleave)="changeStateFour()" class="project">
+        <div class="project" id="project4" (mouseenter)="changeStateFour()" (mouseleave)="changeStateFour()" class="project">
             <div *ngIf="stateFour" class="project-content">
-                <h4>Nama Sushi</h4>
-                <p>React / Firebase</p>
+                <h4>All Trails</h4>
+                <p class="project-subheader">CRUD</p>
                 <button (click)="changeModalFour()">Learn More</button>
             </div>
         </div>
-        <div class="project" (mouseenter)="changeStateFive()" (mouseleave)="changeStateFive()" class="project">
+        <!-- <div class="project" (mouseenter)="changeStateFive()" (mouseleave)="changeStateFive()" class="project">
             <div *ngIf="stateFive" class="project-content">
                 <h4>Weather App</h4>
                 <p>Javascript / Weather API</p>
@@ -54,7 +55,7 @@
                 <p>Chart.js</p>
                 <button (click)="changeModalSix()">Learn More</button>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 

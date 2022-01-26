@@ -1,52 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600&display=swap");
+
 .about-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 70px 0 20px;
-    padding: 0 320px;
-    /* background-color: #273444; */
-    background-color: #fff
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 70px 0 20px;
+  padding: 0 460px;
+  background-color: #fff;
 }
 
-.column1, .column2 {
-    color: #273444;
-    font-family: 'Exo', sans-serif;
-    line-height: 1.5;
+.about-title,
+.about-text {
+  color: #273444;
+  line-height: 1.5;
 }
 
-.column1 {
-    
-    text-align: center;
-    /* padding-top: 30px; */
+.about-title {
+  text-align: center;
 }
 
-.column2 {
-   
-    text-align: left;
-    /* padding-top: 30px; */
+.about-text {
+  text-align: left;
+  font-family: "Exo", sans-serif;
 }
 
 h3 {
-    /* font-size: 34px;
-    color: #e31b6d;
-    background-color: #fff;
-    text-align: center;
-    margin: 0 35px;
-    border-radius: 3px; */
-    color: #273444; 
-    font-size: 34px;
-    font-weight: 400;
-    padding-bottom: 0;
-    margin-bottom: 0;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  color: #273444;
+  font-size: 44px;
+  font-weight: 400;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 p {
-    font-size: 18px;
-    font-weight: 300;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 @media only screen and (max-width: 1024px) {
-    .about-wrapper {
-        padding: 0 50px;
-    }
+  .about-wrapper {
+    padding: 0 50px;
+  }
 }

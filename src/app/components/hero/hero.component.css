@@ -20,7 +20,7 @@ h2 {
 }
 
 .hero-wrapper {
-  height: 90vh;
+  height: 100vh;
   overflow: hidden;
   background-image: url(../../../assets/images/mountain-hero.jpg);
   background-size: cover;

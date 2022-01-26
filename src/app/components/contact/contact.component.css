@@ -1,138 +1,135 @@
 .contact-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 80px 350px 40px;
-    /* background-color: #273444; */
-    background-color: #fff;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 350px 80px;
+  background-color: #fff;
+  align-items: center;
 }
 
 .svgcolor-light {
-    /* background-color: #273444; */
-    background-color: black;
-    position: absolute;
+  background-color: black;
+  position: absolute;
 }
 
-
 h3 {
-    color: #273444;
-    font-size: 34px;
-    font-weight: 400;
-    margin-bottom: 0;
-    text-align: center;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  color: #273444;
+  font-size: 44px;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 p {
-    color: #e31b6d;
-    font-weight: 600;
+  color: #e31b6d;
+  font-weight: 600;
 }
 
 form {
-    /* background-color: #273444; */
-    background-color: #fff;
-    padding: 20px 50px;
-    border-radius: 3px;
-    color: #273444;
+  background-color: #fff;
+  padding: 20px 50px;
+  border-radius: 3px;
+  color: #273444;
 }
 
 .input-pair {
-    display: flex;
-    flex-direction: column;
-    margin: 20px 0;
-    font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  font-size: 20px;
 }
 
 input {
-    width: 400px;
-    border: 1px solid black;
-    margin: 2px 0;
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-left-style: hidden;
+  width: 400px;
+  border: 1px solid black;
+  margin: 2px 0;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
 }
 
 textarea {
-    border-radius: 3px;
+  border-radius: 3px;
 }
 
 #message {
-    height: 90px;
+  height: 90px;
 }
 
 button {
-    color: #fff;
-    background-color: #e31b6d;
-    border: 2px solid #273444;
-    cursor: pointer;
-    margin-top: 4px;
-    padding: 8px;
-    font-size: 20px;
-    transition: .2s;
+  color: #fff;
+  background-color: #e31b6d;
+  border: 2px solid #273444;
+  cursor: pointer;
+  margin-top: 4px;
+  padding: 8px;
+  font-size: 20px;
+  transition: 0.2s;
 }
 
 button:hover {
-    background-color: #1be3d2;
-    color:#273444;
+  background-color: #1be3d2;
+  color: #273444;
 }
 
 .button-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #thankYou {
-    width: 100%;
-    position: relative;
-    color: #fff;
-    background-color: #0dbb24;
-    border: 2px solid #273444;
-    cursor: pointer;
-    margin-top: 4px;
-    padding: 8px;
-    font-size: 20px;
-    transition: .2s;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  width: 100%;
+  position: relative;
+  color: #fff;
+  background-color: #0dbb24;
+  border: 2px solid #273444;
+  cursor: pointer;
+  margin-top: 4px;
+  padding: 8px;
+  font-size: 20px;
+  transition: 0.2s;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 p {
-    color: #fff;
-    padding: 0;
-    margin: 0;
+  color: #fff;
+  padding: 0;
+  margin: 0;
 }
 
 @media only screen and (max-width: 1024px) {
-    .contact-wrapper {
-        padding: 40px 50px 20px;
-    }
+  .contact-wrapper {
+    padding: 40px 50px 20px;
+  }
 }
 
 @media only screen and (max-width: 426px) {
-    .contact-wrapper {
-        padding: 20px;
-    }
+  .contact-wrapper {
+    padding: 20px;
+  }
 
-    form {
-        padding: 10px;
-    }
+  form {
+    padding: 10px;
+  }
 
-    input {
-        width: 300px;
-    }
+  input {
+    width: 300px;
+  }
 
-    .input-pair {
-        font-size: 16px
-    }
+  .input-pair {
+    font-size: 16px;
+  }
 
-    p {
-        font-size: 14px;
-    }
+  p {
+    font-size: 14px;
+  }
 
-    button {
-        padding: 4px;
-        font-size: 14px;
-    }
+  button {
+    padding: 4px;
+    font-size: 14px;
+  }
 }

@@ -8,17 +8,20 @@ import { DOCUMENT } from '@angular/common';
 })
 export class HeaderComponent implements OnInit {
 
-
+  check: boolean = false;
   openMenu: boolean = false;
 
   onNotifyClick() {
     this.openMenu = !this.openMenu
   }
 
-  constructor(@Inject(DOCUMENT) private document: Document) { }
+  constructor() { }
 
   ngOnInit(): void {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 645) {
+          this.check = true;
+      } else {this.check = false};
+    });
   }
-
-  check: boolean = false;
 }
