@@ -1,47 +1,52 @@
 .skills-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
-    /* background-color: #273444; */
-    background-color: #fff;
-    align-items: center;
-    padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+  align-items: center;
+  padding: 50px 470px;
 }
 
-.label, .logos{
-    width: 40%;
-    color: #273444;
-    font-family: 'Exo', sans-serif;
-    line-height: 1.5;
+.technologies {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.label {
+  color: #273444;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  font-size: 44px;
+  font-weight: 400;
 }
 
 .logos {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 h3 {
-    font-size: 34px;
-    font-weight: 400;
+  font-size: 34px;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 1024px) {
-    .logos {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 60%;
-        padding: 0;
-    }
+  .logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 0;
+  }
 }
 
 @media only screen and (max-width: 426px) {
-    .logos {
-        width: 80%;
-    }
+  .logos {
+    width: 80%;
+  }
 
-    .skills-wrapper {
-        padding: 50px 20px;
-    }
+  .skills-wrapper {
+    padding: 50px 20px;
+  }
 }

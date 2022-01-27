@@ -1,0 +1,22 @@
+.find-wrapper {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 140px 470px 10px;
+  text-align: center;
+}
+
+.find-header {
+  font-family: "Baloo Bhaijaan 2", cursive;
+  color: #e31b6d;
+  font-size: 44px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.link-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

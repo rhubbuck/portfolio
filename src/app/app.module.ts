@@ -20,6 +20,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { HomeComponent } from './components/home/home.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { FindComponent } from './components/find/find.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { MenuComponent } from './components/menu/menu.component';
     ModalComponent,
     HomeComponent,
     MenuComponent,
+    FindComponent
   ],
   imports: [
     BrowserModule,
