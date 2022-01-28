@@ -1,11 +1,20 @@
 <div class="modal-background">
     <div class="modal-container">
-        <div class="image-container">
+        <div class="modal-image-container">
+            <div class="image-container-1" [style.background-image]="'url(../../../assets/images/' + image + ')'">
+            </div>
+            <div class="image-container-2" [style.background-image]="'url(../../../assets/images/' + imageTwo + ')'">
+            </div>
+            <div class="image-container-3" [style.background-image]="'url(../../../assets/images/' + imageThree + ')'">
+            </div>
         </div>
         <div class="modal-content">
-            <h3>{{title}}</h3>
-            <p>{{techs}}</p>
-            <p>{{description}}</p>
+            <div class="modal-text">
+                <h3 class="modal-title">{{title}}</h3>
+                <p>{{techs}}</p>
+                <p>{{description}}</p>
+            </div>
+           <div class="modal-buttons">
             <div class="link-box">
                 <button class="link">Live site</button>
                 <button class="link">Source code</button>
@@ -13,6 +22,7 @@
             <div class="back-box">
                 <button id="back" (click)="onClick()">Back</button>
             </div>
+           </div>
         </div>
     </div>
 </div>
