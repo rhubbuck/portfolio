@@ -23,6 +23,7 @@ export class ProjectsComponent implements OnInit {
   currentImageTwo: string = '';
   currentImageThree: string = '';
   currentDescription: string = '';
+  currentSourceCode: string = '';
 
   changeState() {
     this.state = !this.state;
@@ -50,11 +51,12 @@ export class ProjectsComponent implements OnInit {
 
   changeModal() {
     this.currentTitle = 'PupExpress';
-    this.currentTechs = 'Angular/Commerce.js/Stripe.js';
+    this.currentTechs = 'React/Commerce.js/Stripe.js';
     this.currentDescription = 'E-commerce site created using the Angular framework. I used Commerce.js as the back-end, which stores products, tracks sales of each item, and allows for shipping options. Stripe.js was used for the final card payments/processing, although I stopped just before implementing the final pieces of code to connect this to avoid any chance at charging credit cards.';
     this.currentImage = 'Pupexpress-main.png';
     this.currentImageTwo = 'Pupexpress2.png';
     this.currentImageThree = 'Pupexpress3.png';
+    this.currentSourceCode = 'https://github.com/rhubbuck/react-ecommerce';
     this.openModal = !this.openModal
   }
 
@@ -65,6 +67,7 @@ export class ProjectsComponent implements OnInit {
     this.currentImage = 'Nama-main.png';
     this.currentImageTwo = 'Nama2.png';
     this.currentImageThree = 'Nama3.png';
+    this.currentSourceCode = 'https://github.com/rhubbuck/react-restaurant';
     this.openModal = !this.openModal
   }
 
@@ -75,6 +78,7 @@ export class ProjectsComponent implements OnInit {
     this.currentImage = 'Netflix-main.png';
     this.currentImageTwo = 'Netflix4.png';
     this.currentImageThree = 'Netflix3.png';
+    this.currentSourceCode = 'https://github.com/rhubbuck/API-clone';
     this.openModal = !this.openModal
   }
 
@@ -85,6 +89,7 @@ export class ProjectsComponent implements OnInit {
     this.currentImage = 'Alltrails2.png';
     this.currentImageTwo = 'Alltrails3.png';
     this.currentImageThree = 'Alltrails4.png';
+    this.currentSourceCode = 'https://github.com/rhubbuck/angular-crud';
     this.openModal = !this.openModal
   }
 

@@ -1,4 +1,5 @@
 import { Component, OnInit, EventEmitter, Output, Input } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-modal',
@@ -14,13 +15,18 @@ export class ModalComponent implements OnInit {
   @Input() imageTwo = '';
   @Input() imageThree = '';
   @Input() techs = '';
+  @Input() sourceCode = '';
   @Output() closeModal = new EventEmitter();
 
   onClick () {
     this.closeModal.emit(false)
   }
 
-  constructor() { }
+  sanitize(url:string){
+    return this.sanitizer.bypassSecurityTrustUrl(url);
+}
+
+  constructor( private sanitizer: DomSanitizer ) {}
 
   ngOnInit(): void {
   }

@@ -7,16 +7,37 @@
   text-align: center;
 }
 
+.find-link {
+  cursor: pointer;
+}
+
+.find-resume {
+  color: #e31b6d;
+  background-color: #fff;
+  border: 2px solid #273444;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.2s;
+  height: 54px;
+  margin: 0 16px;
+}
+
+.find-resume:hover {
+  background-color: #e31b6d;
+  color: #fff;
+}
+
 .find-header {
   font-family: "Baloo Bhaijaan 2", cursive;
   color: #e31b6d;
-  font-size: 44px;
+  font-size: 42px;
   font-weight: 400;
   margin: 0;
 }
 
-.link-wrapper {
+.find-link-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }

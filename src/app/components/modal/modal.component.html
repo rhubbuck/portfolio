@@ -13,11 +13,12 @@
                 <h3 class="modal-title">{{title}}</h3>
                 <p>{{techs}}</p>
                 <p>{{description}}</p>
+                <p>{{sourceCode}}</p>
             </div>
            <div class="modal-buttons">
             <div class="link-box">
                 <button class="link">Live site</button>
-                <button class="link">Source code</button>
+                <button class="link" ><a href="{{sourceCode}}" target="_blank">Source code</a></button>
             </div>
             <div class="back-box">
                 <button id="back" (click)="onClick()">Back</button>
