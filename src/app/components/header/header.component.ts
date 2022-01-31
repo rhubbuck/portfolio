@@ -15,6 +15,34 @@ export class HeaderComponent implements OnInit {
     this.openMenu = !this.openMenu
   }
 
+  scrollToTop() {
+    window.scroll({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
+
+  scrollToAbout() {
+    window.scroll({
+      top: 700,
+      behavior: 'smooth'
+    })
+  }
+
+  scrollToProjects() {
+    window.scroll({
+      top: 1650,
+      behavior: 'smooth'
+    })
+  }
+
+  scrollToContact() {
+    window.scroll({
+      top: 3000,
+      behavior: 'smooth'
+    })
+  }
+
   constructor() { }
 
   ngOnInit(): void {

@@ -7,10 +7,10 @@
         </div>
         <div class="nav-container">
             <ul class="nav">
-                <li><a class="navlink">HOME</a></li>
-                <li><a class="navlink">ABOUT</a></li>
-                <li><a class="navlink">PROJECTS</a></li>
-                <li><a class="navlink">CONTACT</a></li>
+                <li><a class="navlink" (click)="scrollToTop()">HOME</a></li>
+                <li><a class="navlink" (click)="scrollToAbout()">ABOUT</a></li>
+                <li><a class="navlink" (click)="scrollToProjects()">PROJECTS</a></li>
+                <li><a class="navlink" (click)="scrollToContact()">CONTACT</a></li>
             </ul>
             <img src="../../../assets/images/icons8-menu-24.png" alt="" class="menu" (click)="onNotifyClick()">
         </div>
