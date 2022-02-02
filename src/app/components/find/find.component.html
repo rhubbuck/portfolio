@@ -2,7 +2,8 @@
     <h4 class="find-header">Trying to find me?</h4>
     <div class="find-link-wrapper">
         <div class="find-link"><a href="https://www.linkedin.com/in/ryan-hubbuck-61a749210/" target="_blank"><img src="../../../assets/images/icons8-linkedin-60.png" alt="Linked-in link"></a></div>
-        <button class="find-resume">Resume</button>
+        <button class="find-resume" (click)="changeResume()">Resume</button>
         <div class="find-link"><a href="https://github.com/rhubbuck" target="_blank"><img src="../../../assets/images/icons8-github-60.png" alt="Github link"></a></div>
     </div>
+    <app-resume  *ngIf="openResume" (closeResume)="onNotifyClick()"></app-resume>
 </div>

@@ -7,6 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FindComponent implements OnInit {
 
+  openResume: boolean = false;
+
+  changeResume() {
+    this.openResume = !this.openResume;
+  }
+
+  onNotifyClick() {
+    this.openResume = !this.openResume;
+  }
+
   constructor() { }
 
   ngOnInit(): void {

@@ -21,6 +21,7 @@ import { ModalComponent } from './components/modal/modal.component';
 import { HomeComponent } from './components/home/home.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { FindComponent } from './components/find/find.component';
+import { ResumeComponent } from './components/resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { FindComponent } from './components/find/find.component';
     ModalComponent,
     HomeComponent,
     MenuComponent,
-    FindComponent
+    FindComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,

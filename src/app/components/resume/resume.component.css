@@ -1,0 +1,22 @@
+.resume-container {
+  z-index: 3;
+  background-color: #fff;
+  padding: 3px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #273444;
+  display: flex;
+  flex-direction: row;
+}
+
+.resume-background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 2;
+}
