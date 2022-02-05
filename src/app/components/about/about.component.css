@@ -38,8 +38,22 @@ p {
   font-weight: 300;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1400px) {
   .about-wrapper {
-    padding: 0 50px;
+    padding: 0 240px;
+  }
+
+  h3 {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .about-wrapper {
+    padding: 0 140px;
+  }
+
+  h3 {
+    font-size: 40px;
   }
 }

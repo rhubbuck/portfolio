@@ -16,6 +16,7 @@ export class ModalComponent implements OnInit {
   @Input() imageThree = '';
   @Input() techs = '';
   @Input() sourceCode = '';
+  @Input() liveSite = '';
   @Output() closeModal = new EventEmitter();
 
   onClick () {

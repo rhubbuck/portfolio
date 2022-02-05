@@ -24,6 +24,7 @@ export class ProjectsComponent implements OnInit {
   currentImageThree: string = '';
   currentDescription: string = '';
   currentSourceCode: string = '';
+  currentLiveSite: string = '';
 
   changeState() {
     this.state = !this.state;
@@ -57,6 +58,7 @@ export class ProjectsComponent implements OnInit {
     this.currentImageTwo = 'Pupexpress2.png';
     this.currentImageThree = 'Pupexpress3.png';
     this.currentSourceCode = 'https://github.com/rhubbuck/react-ecommerce';
+    this.currentLiveSite = 'https://rhubbuck.github.io/react-ecommerce/';
     this.openModal = !this.openModal
   }
 
@@ -68,6 +70,7 @@ export class ProjectsComponent implements OnInit {
     this.currentImageTwo = 'Nama2.png';
     this.currentImageThree = 'Nama3.png';
     this.currentSourceCode = 'https://github.com/rhubbuck/react-restaurant';
+    this.currentLiveSite = 'https://rhubbuck.github.io/react-restaurant/';
     this.openModal = !this.openModal
   }
 
@@ -79,6 +82,7 @@ export class ProjectsComponent implements OnInit {
     this.currentImageTwo = 'Netflix4.png';
     this.currentImageThree = 'Netflix3.png';
     this.currentSourceCode = 'https://github.com/rhubbuck/API-clone';
+    this.currentLiveSite = 'https://rhubbuck.github.io/API-clone/';
     this.openModal = !this.openModal
   }
 
@@ -90,24 +94,25 @@ export class ProjectsComponent implements OnInit {
     this.currentImageTwo = 'Alltrails3.png';
     this.currentImageThree = 'Alltrails4.png';
     this.currentSourceCode = 'https://github.com/rhubbuck/angular-crud';
+    this.currentLiveSite = 'https://rhubbuck.github.io/angular-crud/';
     this.openModal = !this.openModal
   }
 
-  changeModalFive() {
-    this.currentTitle = 'Nama Sushi';
-    this.currentTechs = 'React / Firebase';
-    this.currentDescription = 'dsfssdafsdafds.dfs .asdf.sd af. sdafsdafjsdakjf ksdajkfjsd kf ksda jfkdjs akfjdsk fdk asdk fdsakj f';
-    this.currentImage = 'dddd';
-    this.openModal = !this.openModal
-  }
+  // changeModalFive() {
+  //   this.currentTitle = 'Nama Sushi';
+  //   this.currentTechs = 'React / Firebase';
+  //   this.currentDescription = 'dsfssdafsdafds.dfs .asdf.sd af. sdafsdafjsdakjf ksdajkfjsd kf ksda jfkdjs akfjdsk fdk asdk fdsakj f';
+  //   this.currentImage = 'dddd';
+  //   this.openModal = !this.openModal
+  // }
 
-  changeModalSix() {
-    this.currentTitle = 'Nama Sushi';
-    this.currentTechs = 'React / Firebase';
-    this.currentDescription = 'dsfssdafsdafds.dfs .asdf.sd af. sdafsdafjsdakjf ksdajkfjsd kf ksda jfkdjs akfjdsk fdk asdk fdsakj f';
-    this.currentImage = 'dddd';
-    this.openModal = !this.openModal
-  }
+  // changeModalSix() {
+  //   this.currentTitle = 'Nama Sushi';
+  //   this.currentTechs = 'React / Firebase';
+  //   this.currentDescription = 'dsfssdafsdafds.dfs .asdf.sd af. sdafsdafjsdakjf ksdajkfjsd kf ksda jfkdjs akfjdsk fdk asdk fdsakj f';
+  //   this.currentImage = 'dddd';
+  //   this.openModal = !this.openModal
+  // }
 
 
   onNotifyClick() {

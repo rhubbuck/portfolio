@@ -24,21 +24,21 @@ export class HeaderComponent implements OnInit {
 
   scrollToAbout() {
     window.scroll({
-      top: 700,
+      top: 540,
       behavior: 'smooth'
     })
   }
 
   scrollToProjects() {
     window.scroll({
-      top: 1650,
+      top: 1460,
       behavior: 'smooth'
     })
   }
 
   scrollToContact() {
     window.scroll({
-      top: 3000,
+      top: 2700,
       behavior: 'smooth'
     })
   }
@@ -47,7 +47,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     window.addEventListener('scroll', () => {
-      if (window.scrollY > 645) {
+      if (window.scrollY > 500) {
           this.check = true;
       } else {this.check = false};
     });

@@ -41,3 +41,24 @@
   justify-content: center;
   align-items: center;
 }
+
+@media only screen and (max-width: 1400px) {
+  .find-wrapper {
+    padding: 110px 240px;
+  }
+
+  h3 {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .find-wrapper {
+    padding: 90px 140px;
+  }
+
+  h3,
+  .find-header {
+    font-size: 40px;
+  }
+}

@@ -101,9 +101,31 @@ p {
   margin: 0;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1400px) {
   .contact-wrapper {
     padding: 40px 50px 20px;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  form {
+    padding: 0 70px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  h3 {
+    font-size: 40px;
+  }
+
+  .contact-wrapper {
+    padding-top: 20px;
+  }
+
+  form {
+    padding: 0 70px;
   }
 }
 

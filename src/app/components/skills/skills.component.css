@@ -49,4 +49,25 @@ h3 {
   .skills-wrapper {
     padding: 50px 20px;
   }
+
+  .skills-title {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .skills-wrapper {
+    padding: 50px 240px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .skills-wrapper {
+    padding: 50px 140px;
+  }
+
+  h3,
+  .skills-title {
+    font-size: 40px;
+  }
 }

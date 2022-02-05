@@ -106,7 +106,7 @@ h4 {
   font-size: 32px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1400px) {
   .projects-wrapper {
     margin: 0 40px;
   }
@@ -114,6 +114,7 @@ h4 {
   .project {
     width: 48%;
     margin: 5px;
+    height: 240px;
   }
 
   h4 {
@@ -123,6 +124,29 @@ h4 {
   button {
     margin-top: 20px;
     padding: 4px;
+  }
+
+  h3 {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .project {
+    height: 180px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  h4,
+  .project-subheader {
+    margin: 0;
   }
 }
 
