@@ -75,6 +75,9 @@ a {
 
 .link:hover {
   background-color: #e31b6d;
+}
+
+.link-anchor:hover {
   color: #fff;
 }
 
@@ -99,9 +102,10 @@ h3 {
 
 @media only screen and (max-width: 426px) {
   .modal-container {
-    width: 400px;
-    margin: 80px 0;
+    width: 90vw;
+    margin-top: 120px 10px 0;
     flex-direction: column;
+    height: 67vh;
   }
 
   .image-container-1,
