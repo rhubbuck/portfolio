@@ -153,6 +153,7 @@ h4 {
 @media only screen and (max-width: 426px) {
   .projects-wrapper {
     padding: 0;
+    margin: 0;
   }
 
   .project-content {
@@ -161,7 +162,7 @@ h4 {
 
   .project {
     width: 80%;
-    height: 220px;
+    height: 180px;
     margin: 5px;
   }
 
@@ -171,5 +172,9 @@ h4 {
 
   p {
     font-size: 16px;
+  }
+
+  .label {
+    margin: 0;
   }
 }

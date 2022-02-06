@@ -96,3 +96,33 @@ h3 {
   font-size: 24px;
   text-align: center;
 }
+
+@media only screen and (max-width: 426px) {
+  .modal-container {
+    width: 400px;
+    margin: 80px 0;
+    flex-direction: column;
+  }
+
+  .image-container-1,
+  .image-container-2,
+  .image-container-3 {
+    display: none;
+  }
+
+  .modal-title {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .link-box {
+    margin: 8px;
+  }
+
+  .back-box {
+    margin: 18px 6px 0 0;
+  }
+}
