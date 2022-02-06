@@ -11,7 +11,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 50vh;
+  height: 30vh;
   list-style-type: none;
   color: #fff;
   font-size: 24px;

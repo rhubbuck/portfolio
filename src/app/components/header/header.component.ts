@@ -24,21 +24,21 @@ export class HeaderComponent implements OnInit {
 
   scrollToAbout() {
     window.scroll({
-      top: 540,
+      top: 640,
       behavior: 'smooth'
     })
   }
 
   scrollToProjects() {
     window.scroll({
-      top: 1460,
+      top: 1560,
       behavior: 'smooth'
     })
   }
 
   scrollToContact() {
     window.scroll({
-      top: 2700,
+      top: 2800,
       behavior: 'smooth'
     })
   }

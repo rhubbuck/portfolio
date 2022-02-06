@@ -16,7 +16,7 @@ export class MenuComponent implements OnInit {
   
   scrollToAbout() {
     window.scroll({
-      top: 540,
+      top: 740,
       behavior: 'smooth'
     });
     this.closeMenu.emit(false);
@@ -24,7 +24,7 @@ export class MenuComponent implements OnInit {
 
   scrollToProjects() {
     window.scroll({
-      top: 1380,
+      top: 1580,
       behavior: 'smooth'
     });
     this.closeMenu.emit(false);
@@ -32,7 +32,7 @@ export class MenuComponent implements OnInit {
 
   scrollToContact() {
     window.scroll({
-      top: 2700,
+      top: 2900,
       behavior: 'smooth'
     });
     this.closeMenu.emit(false);
