@@ -1,0 +1,9 @@
+{
+  "hosting": {
+    "public": "dist/portfolio",
+    "rewrites": [{
+      "source": "**",
+      "destination": "/index.html"
+    }]
+  }
+}
