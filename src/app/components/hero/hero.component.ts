@@ -7,6 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroComponent implements OnInit {
 
+  scrollToProjects() {
+    window.scroll({
+      top: 1450,
+      behavior: 'smooth'
+    })
+  }
+
+  scrollToContact() {
+    window.scroll({
+      top: 2800,
+      behavior: 'smooth'
+    })
+  }
+
   constructor() { }
 
   ngOnInit(): void {

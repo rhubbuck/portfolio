@@ -60,8 +60,9 @@ p {
 
 @media only screen and (max-width: 426px) {
   .about-wrapper {
-    padding: 0 40px;
+    padding: 10px 40px 40px;
   }
+
   p {
     font-size: 16px;
   }

@@ -70,6 +70,26 @@
   color: #273444;
   background-color: #fff;
   height: 100%;
+  display: none;
+  overflow: hidden;
+}
+
+.project:hover > div {
+  display: block;
+  animation: fade_in 0.2s;
+  overflow: hidden;
+  padding-top: 0;
+}
+
+@keyframes fade_in {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 button {
@@ -152,7 +172,7 @@ h4 {
 
 @media only screen and (max-width: 426px) {
   .projects-wrapper {
-    padding: 0;
+    padding: 60px 0 40px;
     margin: 0;
   }
 

@@ -132,6 +132,7 @@ p {
 @media only screen and (max-width: 426px) {
   .contact-wrapper {
     padding: 20px;
+    margin-bottom: 20px;
   }
 
   form {
